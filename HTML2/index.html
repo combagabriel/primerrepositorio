@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FORMULRIOS </title>
+</head>
+
+<body>
+
+
+
+    <h1> FORMULARIO </h1>
+    <hr>
+    <!-- Etiqueta FORM indica un ACCCION -->
+    <!-- ATRIBUTO placeholder="" para mostrar algo al usuario en form (Gota de Agua)
+</fieldset> hace el recuadro al Formulario
+required (que algo es REQUERIDO)
+-->
+
+    <form action="">
+        <fieldset>
+            <legend> Informacion Personal </legend>
+            <label for="nombre"> Nombre:</label> <br>
+            <input type="text" placeholder="Ingrese Nombre">
+            <br>
+            <br>
+            <label for="texto"> Apellido:</label> <br>
+            <input type="text" placeholder="Ingrese Apellido">
+            <br>
+            <br>
+            <label for="email"> Email:</label> <br>
+            <input type="email" required placeholder="Ingrese Email">
+            <br>
+            <br>
+            <label for="contraseña"> contaseña:</label> <br>
+            <input type="password" placeholder="Contraseña">
+            <br>
+            <br>
+            <input type="submit">
+        </fieldset>
+        <fieldset>
+            <legend> Otra infomrmacion </legend>
+            <label for="Edad"> EDAD:</label>
+            <input type="number" name="Edad" id="edad">
+            <br>
+            <br>
+
+
+            <label for="Comentario"> Comentario</label>
+            <textarea name="Comentarioo" id="Comntario" cols="50" rows="5"></textarea>
+        </fieldset>
+        <input type="submit">
+    </form>
+
+    <h2> Table HTML Simple</h2>
+
+    <table border="1">
+        <caption> Lita de Estudiante </caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Curso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gabriel COMBA</td>
+                <td>36</td>
+                <td>Curso Certficacion Full Stack</td>
+            </tr>
+            <tr>
+                <td>Julio ROCA</td>
+                <td>34</td>
+                <td>Curso Certficacion Full Stack</td>
+            </tr>
+            <tr>
+                <td>Martin ZARATE</td>
+                <td>32</td>
+                <td>Curso Certficacion Full Stack</td>
+            </tr>
+
+        </tbody>
+    </table>
+<!-- etiqueta selectora???
+ver mas Imput -->
+
+</body>
+
+</html>
